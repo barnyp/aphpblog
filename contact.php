@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: ITSUPPORT-05
  * Date: 6/17/2017
- * Time: 12:27 PM
+ * Time: 1:41 PM
  */
 require ('config/config.php');
 require ('config/db.php');
@@ -14,7 +14,7 @@ require ('config/db.php');
 
     <!-- This is the body of the homepage-->
     <div class="container">
-        <h1>This is the Add Post Page</h1>
+        <h1>This is the Contact Page</h1>
 
     </div>
 
