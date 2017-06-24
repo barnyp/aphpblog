@@ -11,6 +11,7 @@
 ?>
 <?php include('inc/header.php'); ?>
 
+<!-- This is the body of the homepage-->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -22,10 +23,6 @@
     </div>
 
 
-    <!-- This is the body of the homepage-->
-    <div class="container">
-        <h1>Body</h1>
 
-    </div>
 
 <?php include('inc/footer.php'); ?>
