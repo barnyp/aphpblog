@@ -15,9 +15,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="First PHP Website and Blog" content="Page Description">
-    <meta name="Paul Barnabas" content="Made with love by Paul B">
-    <title>PAUL BARNABAS</title>
+    <meta name="description" content="<?php PAGE_DESC; ?>">
+    <meta name="author" content="<?php AUTHOR; ?>">
+    <title><?php SITE_NAME; ?></title>
 
     <!-- Bootstrap -->
     <!--    <link rel="stylesheet" href="https://bootswatch.com/simplex/bootstrap.min.css">-->
