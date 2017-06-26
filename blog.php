@@ -31,15 +31,15 @@
     <!-- This is the body of the blog page-->
     <div class="container">
         <h1>This is the Blog Page</h1>
-        <div class="well">
             <?php foreach($posts as $post) : ?>
-                <h3><?php echo $post['title']; ?> </h3>
-                <small>Created on <?php echo $post['created_at']; ?> by <?php echo $post['author']; ?></small>
-                <p class="text-default"><?php echo $post['body']; ?></p>
-                <a href="<?php echo ROOT_URL; ?>post.php?id=<?php echo $post['id']; ?>" class="btn btn-success">Read More...</a>
-                <hr>
+                <div class="well">
+                    <h3><?php echo $post['title']; ?> </h3>
+                    <small>Created on <?php echo $post['created_at']; ?> by <?php echo $post['author']; ?></small>
+                    <p class="text-default"><?php echo $post['body']; ?></p>
+                    <a href="<?php echo ROOT_URL; ?>post.php?id=<?php echo $post['id']; ?>" class="btn btn-success">Read More...</a>
+                </div>
             <?php endforeach; ?>
-        </div>
+
     </div>
 
 <?php include('inc/footer.php'); ?>
